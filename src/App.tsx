@@ -1,16 +1,15 @@
-import { useEffect, useState } from "react";
-import type { Schema } from "../amplify/data/resource";
-import { generateClient } from "aws-amplify/data";
+
 import type { AppProps } from 'next/app';
 import { Authenticator } from '@aws-amplify/ui-react';
 import { Amplify } from 'aws-amplify';
-import outputs from '@/amplify_outputs.json';
+import outputs from '../amplify_outputs.json';
 import '@aws-amplify/ui-react/styles.css';
 
-const client = generateClient<Schema>();
+
 Amplify.configure(outputs);
 
-export default function App({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps) {
+
   return (
     <Authenticator>
       {({ signOut, user }) => (
@@ -22,6 +21,6 @@ export default function App({ Component, pageProps }: AppProps) {
       )}
     </Authenticator>
   );
-};
+}
 
 export default App;
