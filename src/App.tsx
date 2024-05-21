@@ -1,5 +1,3 @@
-
-import type { AppProps } from 'next/app';
 import { Authenticator } from '@aws-amplify/ui-react';
 import { Amplify } from 'aws-amplify';
 import outputs from '../amplify_outputs.json';
@@ -8,7 +6,7 @@ import '@aws-amplify/ui-react/styles.css';
 
 Amplify.configure(outputs);
 
-function App({ Component, pageProps }: AppProps) {
+function App() {
 
   return (
     <Authenticator>
@@ -16,7 +14,7 @@ function App({ Component, pageProps }: AppProps) {
         <main>
           <h1>Hello {user?.username}</h1>
           <button onClick={signOut}>Sign out</button>
-          <Component {...pageProps} />
+          
         </main>
       )}
     </Authenticator>
