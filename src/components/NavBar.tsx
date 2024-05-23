@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 function Navbar(props) {
     const handleLogout = () => {
@@ -18,10 +18,10 @@ function Navbar(props) {
         </div>
         <div>
           <ul className="flex gap-8 text-white mr-16 text-[18px]">
-            <button>Home</button>
-            <button>Patients</button>
-            <button>Appointments</button>
-            <button onClick={handleLogout} className="text-sky-400/100">SignOut</button>
+          <li><Link to="/">Home</Link></li>
+              <li><Link to="/patients">Patients</Link></li>
+              <li><Link to="/appointments">Appointments</Link></li>
+            <button onClick={handleLogout} className="text-white">SignOut</button>
           </ul>
         </div>
       </div>
