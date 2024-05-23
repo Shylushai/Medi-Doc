@@ -17,7 +17,7 @@ function App() {
         
         <main>
           <NavBar logOut={signOut}/>
-          
+          <h1>Hello {user?.username}</h1>
         </main>
       )}
     </Authenticator>
