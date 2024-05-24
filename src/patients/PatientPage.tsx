@@ -1,9 +1,14 @@
-function PatientPage() {
-    return(
-        <div>
-            <h1>PatientPage</h1>
-        </div>
-    );
-}
+import { StorageManager } from '@aws-amplify/ui-react-storage';
+import '@aws-amplify/ui-react/styles.css';
 
-export default PatientPage;
+export const PatientPage = () => {
+    return (
+      <StorageManager
+        acceptedFileTypes={['image/*']}
+        path="public/"
+        autoUpload={false}
+        maxFileCount={1}
+        isResumable
+      />
+    );
+  };

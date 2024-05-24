@@ -5,7 +5,7 @@ import outputs from '../amplify_outputs.json';
 import NavBar from './components/NavBar';
 import HomePage from './home/HomePage';
 import AppointmentPage from './appointments/AppointmentsPage';
-import PatientPage from './patients/PatientPage';
+import { PatientPage }from './patients/PatientPage';
 import SiteFooter from './components/SiteFooter';
 import 'bootstrap/dist/css/bootstrap-reboot.min.css'
 import '@aws-amplify/ui-react/styles.css'
