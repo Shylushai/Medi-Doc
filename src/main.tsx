@@ -6,6 +6,7 @@ import outputs from "../amplify_outputs.json";
 import "./index.css"
 import { BrowserRouter } from 'react-router-dom';
 
+
 Amplify.configure(outputs);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
