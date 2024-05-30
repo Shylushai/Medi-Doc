@@ -31,7 +31,8 @@ OR just use VS Code GUI (at the bottom left corner) -> Click main -> Create new 
  - Open VS Code Source Control
  ![alt text](image-3.png)
  - Enter a short description about the changes in the Message box. Ex: add patient login page
- - Press Commit
+ - Press Commit -> Yes
+ 
  </details>
 
 **Original Readme Content**
