@@ -16,6 +16,5 @@ if (Array.isArray(cfnUserPool.schema)) {
   cfnUserPool.schema.push({
     name: 'role',
     attributeDataType: 'int',
-    developerOnlyAttribute: false,
   });
 }
