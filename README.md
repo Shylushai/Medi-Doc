@@ -32,7 +32,9 @@ OR just use VS Code GUI (at the bottom left corner) -> Click main -> Create new 
  ![alt text](image-3.png)
  - Enter a short description about the changes in the Message box. Ex: add patient login page
  - Press Commit -> Yes
- 
+ - Commit is like create a save point for your code, you can cancel or revert your code back to a commit's state (google it)
+ - Usually when working, a good habit it to create many commit after milestones or before trying something so we kind of have a back up
+ - When ready, press Publish Branch
  </details>
 
 **Original Readme Content**
