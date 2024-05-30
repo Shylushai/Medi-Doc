@@ -9,8 +9,12 @@ import { PatientPage }from './patients/PatientPage';
 import SiteFooter from './components/SiteFooter';
 import 'bootstrap/dist/css/bootstrap-reboot.min.css'
 import '@aws-amplify/ui-react/styles.css'
+//import { fetchAuthSession } from "aws-amplify/auth"
 
 Amplify.configure(outputs);
+
+//const { tokens } = await fetchAuthSession();
+//console.log("user belongs to following groups: " + tokens.accessToken.payload["cognito:groups"])
 
 function App() {
   const components = {
@@ -71,6 +75,7 @@ function App() {
           </Routes>
           <SiteFooter />
           <h1 className="text-white">Hello {user?.username}</h1>
+          
         </div>
       )}
     </Authenticator>
