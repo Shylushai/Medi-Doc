@@ -38,7 +38,9 @@ OR just use VS Code GUI (at the bottom left corner) -> Click main -> Create new 
  ![alt text](image-4.png)
  - Choose upstream to commit to Noah's repo
  ![alt text](image-5.png)
+ OR Origin to commit to your fork, normal we will just publish to both
  </details>
+ - Contact maintainer to review and merge
 
 **Original Readme Content**
 ## AWS Amplify React+Vite Starter Template
