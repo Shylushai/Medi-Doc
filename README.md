@@ -7,6 +7,7 @@
 - Run the following command in terminal (Ctrl + `) line-by-line:
 
 npm install
+
 npm run dev
 
 - It should print a localhost address if successfully, go to that address to preview the project, any change you make should reflect asap on the preview page
