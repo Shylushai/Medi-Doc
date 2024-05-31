@@ -5,16 +5,16 @@
 - Install Node.JS & restart your machine
 - Open the repo folder in VS Code
 - Run the following command in terminal (Ctrl + `) line-by-line:
-<details> 
+
 npm install
 npm run dev
- </details>
+
 - It should print a localhost address if successfully, go to that address to preview the project, any change you make should reflect asap on the preview page
 
 ## How to Contribute
 - Do **How to Run**
 - Before every task, we need to create a new branch so that any changes we make will not affect other branches until it is merged to main branch
-<details> 
+
 In VS Code: Ctrl + Shift + P
 - Enter & Select: >Git: Create Branch...
 OR just use VS Code GUI (at the bottom left corner) -> Click main -> Create new branch
@@ -23,11 +23,11 @@ OR just use VS Code GUI (at the bottom left corner) -> Click main -> Create new 
 - Please check if the branch is changed to the new branch
 ![alt text](image-2.png)
 - Enter branch name, usually the branch name is related to what changes you will make. Ex: add-patient-login
- </details>
+ 
  - Start Coding
  - After finished, we will push our changes to the repo so the maintainer can merge our changes to main branch
  - The easiest way is to use VS Code Source Control:
- <details>
+ 
  - Open VS Code Source Control
  ![alt text](image-3.png)
  - Enter a short description about the changes in the Message box. Ex: add patient login page
@@ -39,7 +39,7 @@ OR just use VS Code GUI (at the bottom left corner) -> Click main -> Create new 
  - Choose upstream to commit to Noah's repo
  ![alt text](image-5.png)
  OR Origin to commit to your fork, normal we will just publish to both
- </details>
+ 
  - Contact maintainer to review and merge
 
 **Original Readme Content**
